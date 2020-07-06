@@ -6,8 +6,8 @@ namespace Aula31
 
         public Contato Destinatario {get; set;}
 
-        public string Enviar( string Nome){
-            return $"Enviar '{Texto}' para {Destinatario}";
+        public string Enviar( Contato _Nome){
+            return $"Enviar '{Texto}' para {_Nome.Nome}";
         }
 
 }

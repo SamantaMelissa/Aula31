@@ -80,9 +80,9 @@ namespace Aula31
     
 
 
-        private string PrepararLinhaCSV(Agenda _nome){
+        private string PrepararLinhaCSV( Contato _nome){
 
-                return $"";
+                return $"Nome do contato: {_nome.Nome} / Número do contato: {_nome.Telefone}";
 
         }
     }

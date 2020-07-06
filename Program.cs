@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+
 
 namespace Aula31
 {
@@ -21,9 +21,9 @@ namespace Aula31
 
             cont.Cadastrar(c1);
 
-            cont.Excluir("Telefone");
+            cont.Excluir("Juju");
 
-            Console.WriteLine(wpp.Enviar($"{c1.Nome} TEXTO:{wpp.Texto}"));
+            Console.WriteLine(wpp.Enviar(wpp.Destinatario));
             
             
         }
